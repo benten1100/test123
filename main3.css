@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Noto Sans Thai', sans-serif;
+    
+}
+
+
+
+.div {
+    box-shadow: 0% 0% 0% rgb(0, 0, 0);
+}
+
+.menu ul li:hover{
+    background-color: black;
+}
+
+.menu ul li:hover a{
+    color: rgb(255, 255, 255);
+
+}
+.menu ul li:hover i{
+    color: rgb(255, 255, 255);
+
+}
+
+.menu{
+   margin-top: 1vh;
+    
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    
+}
+.menu ul li{
+    padding: 0 2rem;
+    list-style: none;
+    border-radius: 100px;
+    font-size: 16px;
+    
+    
+}
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu img {
+    border-radius: 30px;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    overflow: hidden;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+.menu img:hover {
+    transform: translateY(-1px) scale(1);
+    -webkit-filter: blur(3px);
+
+}
+
+
+.menu a img {
+    width: 700px;
+    height: 500px;
+}
